@@ -1,5 +1,3 @@
----
-
 ## 🩺 **Doctor Dashboard UI – Giao Diện Quản Lý Bác Sĩ Chuyên Nghiệp**
 
 **Doctor Dashboard UI** là một hệ thống giao diện quản lý y tế hiện đại, được thiết kế dành riêng cho các bác sĩ nhằm tối ưu hóa quy trình làm việc, theo dõi bệnh nhân, quản lý hồ sơ y tế và xử lý thông tin nhanh chóng, chính xác. Giao diện được xây dựng với phong cách thiết kế trực quan, responsive, dữ liệu động từ các file JSON, cùng trải nghiệm người dùng mượt mà nhờ các hiệu ứng tinh tế và layout thành phần tối ưu.
