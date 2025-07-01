@@ -1,0 +1,86 @@
+{
+  "medicalRecords": [
+    {
+      "id": "R001",
+      "patientId": "P001",
+      "patientName": "Nguyễn Thị Lan",
+      "date": "2024-01-15",
+      "type": "Khám tổng quát",
+      "diagnosis": "Sức khỏe tốt",
+      "symptoms": ["Không có triệu chứng bất thường"],
+      "treatment": "Tư vấn dinh dưỡng và lối sống",
+      "medications": [
+        {
+          "name": "Vitamin C",
+          "dosage": "500mg",
+          "frequency": "1 lần/ngày",
+          "duration": "30 ngày"
+        }
+      ],
+      "vitalSigns": {
+        "bloodPressure": "120/80",
+        "heartRate": 72,
+        "temperature": 36.5,
+        "weight": 55,
+        "height": 160
+      },
+      "labResults": [
+        {
+          "test": "Xét nghiệm máu tổng quát",
+          "result": "Bình thường",
+          "date": "2024-01-14"
+        }
+      ],
+      "followUp": "3 tháng",
+      "doctor": "BS. Nguyễn Văn Nam",
+      "status": "completed"
+    },
+    {
+      "id": "R002",
+      "patientId": "P002",
+      "patientName": "Trần Văn Minh",
+      "date": "2024-01-10",
+      "type": "Đau đầu mãn tính",
+      "diagnosis": "Căng thẳng, thiếu ngủ",
+      "symptoms": ["Đau đầu", "Mất ngủ", "Căng thẳng"],
+      "treatment": "Thuốc giảm đau, thư giãn",
+      "medications": [
+        {
+          "name": "Paracetamol",
+          "dosage": "500mg",
+          "frequency": "2 lần/ngày khi đau",
+          "duration": "7 ngày"
+        }
+      ],
+      "vitalSigns": {
+        "bloodPressure": "130/85",
+        "heartRate": 78,
+        "temperature": 36.8,
+        "weight": 70,
+        "height": 175
+      },
+      "followUp": "1 tuần",
+      "doctor": "BS. Nguyễn Văn Nam",
+      "status": "follow-up"
+    }
+  ],
+  "prescriptions": [
+    {
+      "id": "PR001",
+      "patientId": "P001",
+      "patientName": "Nguyễn Thị Lan",
+      "date": "2024-01-15",
+      "medications": [
+        {
+          "name": "Vitamin C",
+          "dosage": "500mg",
+          "frequency": "1 lần/ngày",
+          "duration": "30 ngày",
+          "instructions": "Uống sau ăn"
+        }
+      ],
+      "doctor": "BS. Nguyễn Văn Nam",
+      "status": "active"
+    }
+  ]
+}

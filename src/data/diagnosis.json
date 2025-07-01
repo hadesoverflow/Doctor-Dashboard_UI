@@ -1,0 +1,66 @@
+{
+  "diagnosisTools": [
+    {
+      "id": "symptom-checker",
+      "name": "Kiểm tra triệu chứng",
+      "description": "Công cụ hỗ trợ chẩn đoán dựa trên triệu chứng",
+      "icon": "Search",
+      "color": "blue"
+    },
+    {
+      "id": "drug-interaction",
+      "name": "Tương tác thuốc",
+      "description": "Kiểm tra tương tác giữa các loại thuốc",
+      "icon": "AlertTriangle",
+      "color": "orange"
+    },
+    {
+      "id": "lab-reference",
+      "name": "Tham chiếu xét nghiệm",
+      "description": "Tra cứu giá trị tham chiếu xét nghiệm",
+      "icon": "FileText",
+      "color": "green"
+    },
+    {
+      "id": "medical-calculator",
+      "name": "Máy tính y khoa",
+      "description": "Các công thức tính toán y khoa",
+      "icon": "Calculator",
+      "color": "purple"
+    }
+  ],
+  "commonDiagnoses": [
+    {
+      "icd10": "J00",
+      "name": "Viêm mũi họng cấp",
+      "symptoms": ["Sốt", "Đau họng", "Chảy nước mũi"],
+      "treatment": "Nghỉ ngơi, uống nhiều nước, thuốc hạ sốt"
+    },
+    {
+      "icd10": "I10",
+      "name": "Tăng huyết áp nguyên phát",
+      "symptoms": ["Đau đầu", "Chóng mặt", "Mệt mỏi"],
+      "treatment": "Thuốc hạ huyết áp, chế độ ăn ít muối"
+    },
+    {
+      "icd10": "E11",
+      "name": "Đái tháo đường type 2",
+      "symptoms": ["Khát nước", "Tiểu nhiều", "Mệt mỏi"],
+      "treatment": "Thuốc hạ đường huyết, chế độ ăn kiêng"
+    }
+  ],
+  "recentDiagnoses": [
+    {
+      "patientName": "Nguyễn Văn An",
+      "diagnosis": "Viêm mũi họng cấp",
+      "date": "2024-01-15",
+      "confidence": 95
+    },
+    {
+      "patientName": "Trần Thị Bình",
+      "diagnosis": "Tăng huyết áp",
+      "date": "2024-01-14",
+      "confidence": 88
+    }
+  ]
+}

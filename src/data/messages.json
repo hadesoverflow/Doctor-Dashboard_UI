@@ -1,0 +1,66 @@
+{
+  "notifications": [
+    {
+      "id": "N001",
+      "type": "appointment",
+      "title": "Lịch hẹn mới",
+      "message": "Bệnh nhân Nguyễn Văn An đã đặt lịch khám lúc 9:00 ngày mai",
+      "time": "5 phút trước",
+      "read": false,
+      "priority": "normal"
+    },
+    {
+      "id": "N002",
+      "type": "emergency",
+      "title": "Trường hợp khẩn cấp",
+      "message": "Bệnh nhân Trần Thị Bình cần được khám ngay",
+      "time": "10 phút trước",
+      "read": false,
+      "priority": "urgent"
+    },
+    {
+      "id": "N003",
+      "type": "lab-result",
+      "title": "Kết quả xét nghiệm",
+      "message": "Kết quả xét nghiệm của Lê Văn Cường đã có",
+      "time": "30 phút trước",
+      "read": true,
+      "priority": "normal"
+    }
+  ],
+  "messages": [
+    {
+      "id": "M001",
+      "from": "Phòng xét nghiệm",
+      "subject": "Kết quả xét nghiệm máu",
+      "preview": "Kết quả xét nghiệm của bệnh nhân Nguyễn Thị Lan...",
+      "time": "2 giờ trước",
+      "read": false,
+      "attachments": 1
+    },
+    {
+      "id": "M002",
+      "from": "Y tá trưởng",
+      "subject": "Báo cáo ca trực",
+      "preview": "Báo cáo tình hình ca trực đêm qua...",
+      "time": "4 giờ trước",
+      "read": true,
+      "attachments": 0
+    },
+    {
+      "id": "M003",
+      "from": "Bệnh nhân",
+      "subject": "Hỏi về đơn thuốc",
+      "preview": "Xin chào bác sĩ, tôi muốn hỏi về cách uống thuốc...",
+      "time": "1 ngày trước",
+      "read": true,
+      "attachments": 0
+    }
+  ],
+  "quickReplies": [
+    "Cảm ơn bạn đã liên hệ",
+    "Tôi sẽ kiểm tra và phản hồi sớm",
+    "Vui lòng đến khám vào thời gian đã hẹn",
+    "Hãy uống thuốc đúng liều lượng đã kê"
+  ]
+}

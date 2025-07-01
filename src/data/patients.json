@@ -1,0 +1,117 @@
+{
+  "patients": [
+    {
+      "id": "P001",
+      "name": "Nguyễn Thị Lan",
+      "age": 45,
+      "gender": "Nữ",
+      "phone": "0901234567",
+      "email": "lan.nguyen@email.com",
+      "address": "123 Đường ABC, Quận 1, TP.HCM",
+      "bloodType": "A+",
+      "allergies": ["Penicillin", "Aspirin"],
+      "emergencyContact": {
+        "name": "Nguyễn Văn Nam",
+        "relationship": "Chồng",
+        "phone": "0907654321"
+      },
+      "medicalHistory": [
+        {
+          "date": "2024-01-15",
+          "condition": "Khám tổng quát",
+          "diagnosis": "Sức khỏe tốt",
+          "treatment": "Tư vấn dinh dưỡng",
+          "doctor": "BS. Nguyễn Văn Nam"
+        }
+      ],
+      "lastVisit": "2024-01-15",
+      "status": "active",
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
+    },
+    {
+      "id": "P002",
+      "name": "Trần Văn Minh",
+      "age": 32,
+      "gender": "Nam",
+      "phone": "0912345678",
+      "email": "minh.tran@email.com",
+      "address": "456 Đường XYZ, Quận 3, TP.HCM",
+      "bloodType": "B+",
+      "allergies": ["Không có"],
+      "emergencyContact": {
+        "name": "Trần Thị Mai",
+        "relationship": "Vợ",
+        "phone": "0908765432"
+      },
+      "medicalHistory": [
+        {
+          "date": "2024-01-10",
+          "condition": "Đau đầu mãn tính",
+          "diagnosis": "Stress, thiếu ngủ",
+          "treatment": "Thuốc giảm đau, nghỉ ngơi",
+          "doctor": "BS. Nguyễn Văn Nam"
+        }
+      ],
+      "lastVisit": "2024-01-10",
+      "status": "follow-up",
+      "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150"
+    },
+    {
+      "id": "P003",
+      "name": "Lê Thị Mai",
+      "age": 28,
+      "gender": "Nữ",
+      "phone": "0923456789",
+      "email": "mai.le@email.com",
+      "address": "789 Đường DEF, Quận 7, TP.HCM",
+      "bloodType": "O+",
+      "allergies": ["Không có"],
+      "emergencyContact": {
+        "name": "Lê Văn Hùng",
+        "relationship": "Chồng",
+        "phone": "0909876543"
+      },
+      "medicalHistory": [
+        {
+          "date": "2024-01-08",
+          "condition": "Kiểm tra thai kỳ",
+          "diagnosis": "Thai kỳ 12 tuần, bình thường",
+          "treatment": "Vitamin tổng hợp",
+          "doctor": "BS. Nguyễn Văn Nam"
+        }
+      ],
+      "lastVisit": "2024-01-08",
+      "status": "active",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150"
+    }
+  ],
+  "recentPatients": [
+    {
+      "id": "P001",
+      "name": "Nguyễn Thị Lan",
+      "age": 45,
+      "condition": "Khám tổng quát",
+      "time": "2 giờ trước",
+      "status": "completed",
+      "avatar": "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=150"
+    },
+    {
+      "id": "P002",
+      "name": "Trần Văn Minh",
+      "age": 32,
+      "condition": "Đau đầu mãn tính",
+      "time": "4 giờ trước",
+      "status": "pending",
+      "avatar": "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150"
+    },
+    {
+      "id": "P003",
+      "name": "Lê Thị Mai",
+      "age": 28,
+      "condition": "Kiểm tra thai kỳ",
+      "time": "6 giờ trước",
+      "status": "completed",
+      "avatar": "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150"
+    }
+  ]
+}

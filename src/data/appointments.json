@@ -1,0 +1,80 @@
+{
+  "todayAppointments": [
+    {
+      "id": "A001",
+      "time": "09:00",
+      "patient": {
+        "id": "P001",
+        "name": "Nguyễn Văn An",
+        "phone": "0901234567"
+      },
+      "type": "Khám tổng quát",
+      "duration": 30,
+      "priority": "normal",
+      "status": "confirmed",
+      "notes": "Bệnh nhân mới, cần khám tổng quát"
+    },
+    {
+      "id": "A002",
+      "time": "10:30",
+      "patient": {
+        "id": "P002",
+        "name": "Trần Thị Bình",
+        "phone": "0912345678"
+      },
+      "type": "Tái khám",
+      "duration": 20,
+      "priority": "high",
+      "status": "confirmed",
+      "notes": "Tái khám sau điều trị"
+    },
+    {
+      "id": "A003",
+      "time": "11:00",
+      "patient": {
+        "id": "P003",
+        "name": "Lê Văn Cường",
+        "phone": "0923456789"
+      },
+      "type": "Xét nghiệm",
+      "duration": 15,
+      "priority": "normal",
+      "status": "waiting",
+      "notes": "Xét nghiệm máu định kỳ"
+    },
+    {
+      "id": "A004",
+      "time": "14:00",
+      "patient": {
+        "id": "P004",
+        "name": "Phạm Thị Dung",
+        "phone": "0934567890"
+      },
+      "type": "Chẩn đoán hình ảnh",
+      "duration": 45,
+      "priority": "urgent",
+      "status": "confirmed",
+      "notes": "Cần chụp X-quang ngực"
+    }
+  ],
+  "weeklySchedule": [
+    {
+      "date": "2024-01-15",
+      "dayOfWeek": "Thứ 2",
+      "appointments": 12,
+      "availableSlots": 4
+    },
+    {
+      "date": "2024-01-16",
+      "dayOfWeek": "Thứ 3",
+      "appointments": 15,
+      "availableSlots": 1
+    },
+    {
+      "date": "2024-01-17",
+      "dayOfWeek": "Thứ 4",
+      "appointments": 10,
+      "availableSlots": 6
+    }
+  ]
+}

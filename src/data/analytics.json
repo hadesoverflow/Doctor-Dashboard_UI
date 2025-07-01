@@ -1,0 +1,50 @@
+{
+  "monthlyStats": {
+    "currentMonth": {
+      "patients": 234,
+      "appointments": 456,
+      "revenue": 125000000,
+      "satisfaction": 4.8
+    },
+    "previousMonth": {
+      "patients": 209,
+      "appointments": 421,
+      "revenue": 112000000,
+      "satisfaction": 4.6
+    },
+    "growth": {
+      "patients": 12,
+      "appointments": 8,
+      "revenue": 12,
+      "satisfaction": 4
+    }
+  },
+  "patientDemographics": {
+    "ageGroups": [
+      { "range": "0-18", "count": 45, "percentage": 18 },
+      { "range": "19-35", "count": 78, "percentage": 32 },
+      { "range": "36-50", "count": 65, "percentage": 26 },
+      { "range": "51-65", "count": 42, "percentage": 17 },
+      { "range": "65+", "count": 18, "percentage": 7 }
+    ],
+    "gender": [
+      { "type": "Nam", "count": 128, "percentage": 52 },
+      { "type": "Nữ", "count": 120, "percentage": 48 }
+    ]
+  },
+  "diseaseStats": [
+    { "disease": "Cảm cúm", "cases": 45, "percentage": 18 },
+    { "disease": "Cao huyết áp", "cases": 38, "percentage": 15 },
+    { "disease": "Tiểu đường", "cases": 32, "percentage": 13 },
+    { "disease": "Đau đầu", "cases": 28, "percentage": 11 },
+    { "disease": "Khác", "cases": 105, "percentage": 43 }
+  ],
+  "revenueChart": [
+    { "month": "T1", "revenue": 95000000 },
+    { "month": "T2", "revenue": 102000000 },
+    { "month": "T3", "revenue": 108000000 },
+    { "month": "T4", "revenue": 112000000 },
+    { "month": "T5", "revenue": 125000000 },
+    { "month": "T6", "revenue": 118000000 }
+  ]
+}

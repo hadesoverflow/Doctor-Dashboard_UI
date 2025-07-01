@@ -1,0 +1,55 @@
+{
+  "overview": {
+    "stats": {
+      "totalPatients": 1234,
+      "todayAppointments": 28,
+      "newRecords": 156,
+      "emergencyCases": 3,
+      "monthlyGrowth": {
+        "patients": 12,
+        "appointments": 8,
+        "records": 15,
+        "emergency": -2
+      }
+    },
+    "weeklyChart": [
+      { "day": "T2", "patients": 12, "consultations": 8, "revenue": 2400000 },
+      { "day": "T3", "patients": 19, "consultations": 15, "revenue": 3800000 },
+      { "day": "T4", "patients": 15, "consultations": 12, "revenue": 3000000 },
+      { "day": "T5", "patients": 22, "consultations": 18, "revenue": 4400000 },
+      { "day": "T6", "patients": 28, "consultations": 22, "revenue": 5600000 },
+      { "day": "T7", "patients": 16, "consultations": 10, "revenue": 3200000 },
+      { "day": "CN", "patients": 8, "consultations": 5, "revenue": 1600000 }
+    ],
+    "quickActions": [
+      {
+        "id": "add-patient",
+        "label": "Thêm Bệnh Nhân",
+        "icon": "Plus",
+        "color": "blue",
+        "description": "Đăng ký bệnh nhân mới"
+      },
+      {
+        "id": "create-prescription",
+        "label": "Tạo Đơn Thuốc",
+        "icon": "Pill",
+        "color": "green",
+        "description": "Kê đơn thuốc cho bệnh nhân"
+      },
+      {
+        "id": "schedule-appointment",
+        "label": "Lên Lịch Hẹn",
+        "icon": "Calendar",
+        "color": "orange",
+        "description": "Đặt lịch khám cho bệnh nhân"
+      },
+      {
+        "id": "medical-note",
+        "label": "Ghi Chú Y Tế",
+        "icon": "FileText",
+        "color": "purple",
+        "description": "Cập nhật hồ sơ bệnh án"
+      }
+    ]
+  }
+}
